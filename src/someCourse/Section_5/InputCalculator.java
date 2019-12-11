@@ -1,5 +1,7 @@
 package Section_5;
+import com.sun.jdi.connect.Connector;
 
+import java.util.Scanner;
 /*
 
 Write a method called inputThenPrintSumAndAverage that does not have any parameters.
@@ -12,4 +14,9 @@ Origin: Java course by Tim Buchalka
 */
 
 public class InputCalculator {
+    public static void inputThenPrintSumAndAverage(){
+        Scanner sc = new Scanner(System.in);
+        while(input){}
+        int i = scan.nextInt();
+    }
 }

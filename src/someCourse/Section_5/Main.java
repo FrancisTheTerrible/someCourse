@@ -43,8 +43,12 @@ public class Main {
         //DiagonalStar.printSquareStar(48);
 
 // 27. Input calculator
+        InputCalculator.inputThenPrintSumAndAverage();
 
 // 28. Paint Job
+        //1. System.out.println(PaintJob.getBucketCount(3.4,2.1,1.5,2));
+        //2. System.out.println(PaintJob.getBucketCount(3.4,2.1,1.5));
+        //3. System.out.println(PaintJob.getBucketCount(3.4,2));
 
 
 
