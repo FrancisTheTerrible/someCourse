@@ -15,8 +15,28 @@ Origin: Java course by Tim Buchalka
 
 public class InputCalculator {
     public static void inputThenPrintSumAndAverage(){
-        Scanner sc = new Scanner(System.in);
-        while(input){}
-        int i = scan.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        double counter = 0;
+        long sum = 0;
+
+
+        while(true){
+            boolean isInteger = scanner.hasNextInt();
+            if (isInteger){
+                int inputNumber = scanner.nextInt();
+                counter++;
+                sum += inputNumber;
+            }
+            else {break;}
+
+        }
+        System.out.println(sum);
+        System.out.println(counter);
+        long average = Math.round(sum / counter);
+        System.out.println("SUM = " + sum + " AVG = " + average);
+        scanner.close();
+
     }
+
 }
+
