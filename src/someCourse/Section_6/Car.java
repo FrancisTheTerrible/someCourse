@@ -1,0 +1,2 @@
+package Section_6;public class Car {
+}
