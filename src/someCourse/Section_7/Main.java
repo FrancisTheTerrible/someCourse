@@ -10,13 +10,8 @@ public class Main {
         Monitor monitor = new Monitor("27inch Beast","Acer", 27, new Resolution(2540,1440));
         Motherboard motherboard = new Motherboard("BJ-200","Asus", 4,6,"v2.44");
 
-        PC pc = new PC(theCase,monitor,motherboard);
+        PC thePC = new PC(theCase,monitor,motherboard);
 
-        //how to call drawPixel from subClass
-        pc.getMonitor().drawPixelAt(1500,1200,"red");
-
-        //another example
-        pc.getMotherboard().loadProgram("Windows 1.0");
-
+        thePC.powerUp();
     }
 }
