@@ -24,8 +24,8 @@ public class Main {
         Bed bed = new Bed("Rural",4,800, 2,2);
 
         Lamp lamp = new Lamp("Provance",false,1234);
-        BedRoom bedRoom = new BedRoom("Tims", wall1, wall2, wall3, wall4, bed, lamp, ceiling);
-        //bed.make();
+        Bedroom bedRoom = new Bedroom("Tims", wall1, wall2, wall3, wall4, ceiling, bed, lamp) ;
+        bed.make();
         bedRoom.makeBed();
         bedRoom.getLamp().turnOn();
     }
